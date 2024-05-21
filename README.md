@@ -5,7 +5,6 @@
     <br />
 
 
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -22,7 +21,8 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#caveats">Caveats</a></li>
+    <li><a href="#conclusions">Conclusions</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -49,9 +49,9 @@ This project aims to classify cloud cover using both supervised and unsupervised
 
 3. IRIS Software (https://github.com/ESA-PhiLab/iris)
 
-4. Python libraries: scikit-learn, numpy, matplotlib
+4. Python libraries: scikit-learn, numpy, matplotlib etc...
 
-Below is an example of how I download necessary libraries in Google Collaborate. 
+Below is an example of how I download necessary libraries in Google Colaboratory. 
 
 * netCDF4
   ```sh
@@ -63,19 +63,26 @@ Below is an example of how I download necessary libraries in Google Collaborate.
   ```
 ### Installation
 
-Clone the repo
+Clone the repository
    ```sh
    git clone https://github.com/shannonjames24/GEOL0069_Major_Project.git
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CAVEATS -->
+## Caveats
 
+This study is region-specific, which may pose challenges when applying the methods to areas with sea ice or other unique geographical features. Although the project focuses on IRIS AI classification and GMM clustering, other supervised and unsupervised learning methods might offer higher accuracy. The accuracy of cloud cover classification will be primarily assessed through visual inspection. However, more robust evaluation methods, such as creating a confusion matrix and using ground-truth data, could provide a more comprehensive accuracy assessment.
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project can be used to see how unsupervised learning techniques can be applied to EO image and altimetry data to classify sea ice and lead.
+<!-- CONCLUSIONS -->
+## Conclusions
+
+This project demonstrates the effective application of both supervised and unsupervised learning methods for classifying cloud cover in satellite imagery from the Sentinel-3 OLCI and Sentinel-2 MSI sensors. The results show that the supervised method using IRIS AI classification and the unsupervised method using Gaussian Mixture Model (GMM) clustering both produce visually accurate classifications of cloud cover.
+
+However, when applying GMM clustering to Sentinel-2 MSI imagery, urban areas are sometimes misclassified as cloud cover, particularly in smaller rollout images. In contrast, larger images classified with GMM clustering show visually accurate cloud cover. To improve accuracy, higher resolution images would benefit more from supervised learning methods to minimize mislabeling. Additionally, refining the parameters in GMM clustering could lead to more precise cloud cover classification.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
