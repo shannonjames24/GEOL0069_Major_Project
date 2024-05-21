@@ -1,8 +1,7 @@
-# GEOL0069_Major_Project
 <h3 align="center">Classification of Cloud Coverage in Satellite Sentinel-3 OLCI Imagery and Sentinel-2 MSI Imagery</h3>
 
   <p align="center">
-    In this repository, we are using unsupervised learning techniques to identify and classify sea and lead from Sentinal-2 images and Sentinal-3 altimetry data. The two unsupervised methods we are using are K-means Clustering and Gaussian Mixture Models GMM.
+    GEOL0069 Major Project
     <br />
 
 
@@ -12,7 +11,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#project outline">Project Outline</a>
       <ul>
       </ul>
     </li>
@@ -31,15 +30,10 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- PROJECT OUTLINE -->
+## Project Outline
 
-For this project, we are using Google Collaborate to run our code. There are two Google collaborate notebooks in this repository.
-
-1. Copy of Chapter1_Data_Colocating_S2_S3.ipynb
-2. Copy of Chapter1_Unsupervised_Learning_Methods_Michel.ipynb
-
-We are using the first notebook to download and save the Sentinal-2 and -3 data. Then in the second notebook we are analysing the data using Unsupervised Leanring Methods.
+This project aims to classify cloud cover using both supervised and unsupervised learning techniques on Sentinel-3 OLCI (Ocean and Land Colour Instrument) satellite imagery and Sentinel-2 MSI (MultiSpectral Instrument) imagery. OLCI capture images with a resolution of 300m and MSI captures images with a resolution of 10-60m. Clouds often obstruct satellite imagery, making their identification important for correctional purposes. For the supervised learning method, I will utilize IRIS, an AI tool, to manually classify pixels as 'Cloud' and 'Ocean'. Then I will use the manually classified pixels as input data for a Convolutional Neural Network (CNN) Model. For the unsupervised learning method, I will employ Gaussian Mixture Model (GMM) clustering. The study will focus on the region surrounding Chapel Hill, NC, where I attended the University of North Carolina at Chapel Hill (UNC) for my year abroad. This region features diverse geographical elements including cloud cover, ocean, and land in Sentinel-3 OLCI imagery and Urban Settings in Sentinel-2 MSI Imagery.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,7 +58,7 @@ All the necessary imporats and installations are already listed in the notebooks
 
 Clone the repo
    ```sh
-   git clone https://github.com/shannonjames24/GEOL0069.git
+   git clone https://github.com/shannonjames24/GEOL0069_Major_Project.git
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -83,7 +77,7 @@ This project can be used to see how unsupervised learning techniques can be appl
 
 Shannon James
 
-Project Link: [https://github.com/shannonjames24/GEOL0069](https://github.com/shannonjames24/GEOL0069)
+Project Link: [https://github.com/shannonjames24/GEOL0069_Major_Project](https://github.com/shannonjames24/GEOL0069_Major_Project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
