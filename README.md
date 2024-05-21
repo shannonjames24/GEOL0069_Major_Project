@@ -41,19 +41,26 @@ This project aims to classify cloud cover using both supervised and unsupervised
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This section outlines the necessary prerequisites and installation.
-
 ### Prerequisites
 
-Below is one example of the prerequities for this project.
+1. Google Earth Engine (https://earthengine.google.com/)
 
-All the necessary imporats and installations are already listed in the notebooks.
+2. Copernicus Dataspace (https://browser.dataspace.copernicus.eu/)
+
+3. IRIS Software (https://github.com/ESA-PhiLab/iris)
+
+4. Python libraries: scikit-learn, numpy, matplotlib
+
+Below is an example of how I download necessary libraries in Google Collaborate. 
 
 * netCDF4
   ```sh
   !pip install netCDF4
   ```
-
+* Rasterio
+  ```sh
+  !pip install rasterio
+  ```
 ### Installation
 
 Clone the repo
