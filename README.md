@@ -20,13 +20,13 @@
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#YouTube-Link">YouTube Link</a></li>
+        <li><a href="#figures">Figures</a></li>
       </ul>
     </li>
     <li><a href="#caveats">Caveats</a></li>
     <li><a href="#conclusions">Conclusions</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#figures">Figures</a></li>
   </ol>
 </details>
 
