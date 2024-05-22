@@ -26,6 +26,7 @@
     <li><a href="#conclusions">Conclusions</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#figures">Figures</a></li>
   </ol>
 </details>
 
@@ -78,6 +79,15 @@ This link will take you to a video that explains my Google Collab code
 https://youtu.be/znjWZF2qcQo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Figures
+
+![A_Figure_Illustrating_the_Remote_Sensing_Technique_1](https://github.com/shannonjames24/GEOL0069_Major_Project/assets/88371915/45ecb0b1-e077-40e4-9381-008ad5512c63)
+
+*Figure 1* Illustrating the Remote Sensing Technique
+
+![A_Diagram_of_the_AI_Algorithm_and_its_Implementation](https://github.com/shannonjames24/GEOL0069_Major_Project/assets/88371915/ac590b6d-b21c-4a7e-ac9c-c806d1a2df16)
+*Figure 2* Diagram of the AI Algorithm and its Implementation
 
 <!-- CAVEATS -->
 ## Caveats
